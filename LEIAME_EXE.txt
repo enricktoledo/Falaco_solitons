@@ -1,0 +1,14 @@
+COMO GERAR O FalacoSim.exe NO WINDOWS
+=====================================
+1) Instale o Python 3.9+ (https://www.python.org/downloads/) marcando "Add python.exe to PATH".
+2) Extraia esta pasta e dê DUPLO CLIQUE em  gerar_exe.bat
+   (baixa as bibliotecas e gera o programa; leva alguns minutos, precisa de internet).
+3) Ao final aparece  FalacoSim.exe  na pasta. Duplo clique abre a janela com controles deslizantes.
+   A imagem do resultado é salva em  C:\Users\SEU_NOME\falaco_resultado.png
+
+Observações
+ - Para uso por linha de comando (com todas as opções), use o falaco_sim.py com Python (veja o LEIAME.txt do programa).
+ - O Windows Defender/SmartScreen pode avisar sobre "aplicativo desconhecido", porque o .exe
+   não é assinado digitalmente. Clique em "Mais informações" > "Executar assim mesmo".
+ - Alternativa sem instalar Python: suba esta pasta para um repositório no GitHub e rode
+   a ação "Gerar FalacoSim.exe" (arquivo .github/workflows/build.yml); o .exe sai pronto para baixar.
